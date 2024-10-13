@@ -1,4 +1,4 @@
-# WhiteGloveAI Consulting Agent
+# WhitegloveAI Consulting Agent
 ***This is an experimental project to explore the use of Swarm for AI consulting. Not for production use. We strongly recommend a human in the loop and proper training and knowledge transfer of AI solutions. Contact us for more @ https://www.whitegloveai.com***
 
 AI consulting agent that uses the Swarm framework to analyze project specifications and build the neccesary artifacts repository for strategy and implementations.
