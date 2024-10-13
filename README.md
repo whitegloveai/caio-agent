@@ -25,6 +25,10 @@ pip install git+https://github.com/openai/swarm.git
 pip install -r requirements.txt
 ```
 
+## Setup
+
+Copy the .env.example file to .env and supply your OpenAI API key. 
+
 ## Usage
 
 ```bash
