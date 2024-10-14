@@ -4,13 +4,28 @@
 AI consulting agent that uses the Swarm framework to analyze project specifications and build the neccesary artifacts repository for strategy and implementations.
 ```mermaid
 graph TD
-    A[Agent: Smith] -->|collect_user_info| B[Agent: Jarvis]
-    B -->|analyze_specifications| C[Agent: Jasmine]
-    A -->|pass_to_ai_architect| B
-    B -->|pass_to_ai_engineer| C
-    A -->|write_to_file| D[Artifact Folder]
-    B -->|write_to_file| D
-    C -->|build_code| D
+    A[Swarm] --> B[CAIO Agent]
+    B --> C[AI Architect Agent]
+    C --> D[AI Engineer Agent]
+
+    B -->|collect_user_info| E[User Info]
+    B -->|create_strategy| F[Strategy]
+    C -->|create_design| G[Design]
+    D -->|build_code| H[Code]
+
+    E --> I[Artifact Folder]
+    F --> I
+    G --> I
+    H --> I
+
+    subgraph Common Functions
+        J[write_to_file]
+    end
+
+    B --> J
+    C --> J
+    D --> J
+    J --> I
 ```
 
 ## Installation

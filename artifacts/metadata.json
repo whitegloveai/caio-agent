@@ -1,0 +1,13 @@
+{
+  "name": "Wesley",
+  "position": "Analyst",
+  "company_name": "Calpine",
+  "project_name": "LOTUS",
+  "data_situation": "7 silo'd data systems and businss users are managing own spreadsheets, need to think of better ways of managing the spreadsheets and reports + LLM/AI ways to manage and use documents intelligently\"",
+  "process_business_challenges": "Too many different spreadsheets not centrally managed well",
+  "major_data_sources": [
+    "S3",
+    " Maxima"
+  ],
+  "location": "Houston"
+}
